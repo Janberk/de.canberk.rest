@@ -16,7 +16,7 @@ import de.canberk.rest.dao.DB_Conn;
 public class V1_status {
 
 	private static final String API_VERSION = "00.01.00";
-
+	
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String returnTitle() {
