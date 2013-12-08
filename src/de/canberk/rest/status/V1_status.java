@@ -14,7 +14,7 @@ import de.canberk.rest.dao.DB_Conn;
 
 @Path("/v1/status")
 public class V1_status {
-// test
+
 	private static final String API_VERSION = "00.01.00";
 
 	@GET
